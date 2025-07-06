@@ -34,7 +34,7 @@ main {
 }
 
 .question h2 {
-  font-size: 1.2rem;
+  font-size: 2rem; /* Increased font size for question titles */
   margin-bottom: 0.5rem;
 }
 
@@ -49,12 +49,12 @@ main {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem; /* Increased font size for labels */
 }
 
 input[type="radio"] {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 2rem; /* Increased size for icons */
+  height: 2rem; /* Increased size for icons */
 }
 
 /* Styles for Submit Button */
@@ -99,11 +99,11 @@ footer {
   }
 
   .question h2 {
-    font-size: 1rem;
+    font-size: 1.5rem; /* Increased font size for smaller screens */
   }
 
   options label {
-    font-size: 0.9rem;
+    font-size: 1.1rem; /* Adjusted font size for smaller screens */
   }
 
   #submit-btn {
